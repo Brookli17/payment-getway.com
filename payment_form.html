@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment_form.css" >
+</head>
+    
+        <body>
+            <section>     
+
+               <div class="form"  >
+
+                <form>
+                      
+                        <h1  class="main_heading">PAYMENT FORM</h1>
+                         <h2>CONTACT INFORMATION</h2><hr>
+
+                            <p>Required feild are followed by (*)</p>
+                        <fieldset> 
+                                <legend>FULL NAME OF CANDIDATE</legend>
+                              <P>NAME :-* 
+                              <input type="text" name="NAME" required  placeholder="Enter full name " ></P>
+                        </fieldset>
+
+             
+              <fieldset>
+                  <legend>GENDER SPECIFICATION</legend>
+              <P>MALE:-* <input type="radio" name="gender" required></p>
+
+                  <P>FEMALE:-* <input type="radio" name="gender"required></p>
+                      </fieldset>
+                      
+
+                      <fieldset>
+                          <legend> RESIDENTIAL ADDRESS </legend>
+                      <p>ADDRESS:-* 
+                          <textarea name="address" id="address" cols="45" rows="5" required placeholder="enter valid address" ></textarea> </p>
+                  </fieldset>
+
+
+                  <fieldset>
+                      <legend> EMAIL ADDRESS </legend>
+                      <P>EMAIL:-* <input type="email" name="email" id="email" required> </P>
+                  </fieldset>
+
+
+                  <fieldset>
+                      <legend>AREA PINCODE</legend>
+                      <P>PINCODE:- <input type="number" name="number" id="number"required > </P>
+                  </fieldset>
+
+
+                   <hr><br>
+                   <h3>
+                       PAYMENT INFORMATION
+                   </h3>
+
+                   <fieldset>
+                       <legend>
+                          MAKE YOUR PAYMENT
+                       </legend>
+                   <p>CARD TYPE:-*
+                       <select name="card type" id="card type" >
+                       <option value="">--select a card type--</option>
+                       <option value="visa" > Visa</option>
+                       <option value="rupay">Rupay</option>
+                       <option value="master card">Master card</option>
+                      </fieldset> 
+                  </select></p>
+
+      
+                  <P>CARD NUMBER:-*
+                      <input type="number" name="card_no" id="card_number"required placeholder="ENTER 16 DIGIT CARD NO" >
+                  </P>
+
+
+                  <p>EXPIRATION DATE:-*
+                      <input type="date" name="expi_date" id="expi_date"required >
+                  </p>
+
+
+                   <p>CVV*
+                       <input type="password" name="CVV" id="CVV"required placeholder="ENTER CVV" >
+                   </p><hr>
+
+
+                   <footer>
+                   <fieldset>
+                       <p>
+                       <legend>PAYMENT CONFORMATION</legend><br>
+                        <input type="submit" value="PAY NOW"required >
+                        </p>
+                   </fieldset>
+                  </footer>
+
+
+                                      </form>
+                             </div>
+                </section>
+
+                <table>
+                    
+                </table>
+
+        </body>
+
+</html>
